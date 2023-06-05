@@ -38,7 +38,7 @@ try:
   c.send(address[ip].encode())
 except KeyError:
   c.send("Not Found".encode())
-SERVER:
+## SERVER:
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -48,3 +48,13 @@ while True:
    print("MAC Address",s.recv(1024).decode())
    ```
 ## CLIENT OUTPUT :
+
+![image](https://github.com/Bhuvaneshwari-2003/EX-4/assets/94828604/b326c2f7-e362-4fd1-b965-ed8b3e97991f)
+
+## SERVER OUTPUT:
+
+![image](https://github.com/Bhuvaneshwari-2003/EX-4/assets/94828604/e4289fea-61ca-4f9e-86ac-59bb3d872231)
+
+
+## RESULT:
+Thus, the python program for simulating ARP protocols using TCP was successfully executed.
